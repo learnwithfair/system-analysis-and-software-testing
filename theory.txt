@@ -1,4 +1,4 @@
-4.Write down the ATM system specifications and report the various bugs.
+Q4.Write down the ATM system specifications and report the various bugs.
 
 ATM System Specifications (Brief):
 User Authentication: PIN-based access with 4 or 6 digits.
@@ -20,9 +20,31 @@ Deposit Not Credited: Delays in crediting deposited checks.
 Timeout Issue: Session times out too quickly during deposits.
 Card Retention Issue: Cards are retained without valid reasons after transactions.
 
+ATM সিস্টেমের স্পেসিফিকেশন (সংক্ষেপে):
+ইউজার অথেন্টিকেশন: ৪ বা ৬ ডিজিটের পিন দিয়ে অ্যাক্সেস।
+অ্যাকাউন্টের ধরন: চেকিং, সেভিংস, এবং ক্রেডিট অ্যাকাউন্ট সমর্থিত।
+প্রধান ফাংশন: ব্যালেন্স চেক, টাকা উত্তোলন, ডিপোজিট, ফান্ড ট্রান্সফার, এবং মিনি-স্টেটমেন্ট।
+ইউজার ইন্টারফেস: একাধিক ভাষার সমর্থন, টাচস্ক্রিন/কীপ্যাড ইনপুট, এবং রসিদের বিকল্প।
+সিকিউরিটি: পিন এনক্রিপশন, ৩ বার ভুল পিন প্রবেশের পর অ্যাকাউন্ট লক, নিরাপদ যোগাযোগ।
+লেনদেনের সীমা: দৈনিক উত্তোলন এবং লেনদেনের সীমা।
+সংযোগ: ব্যাংকের সার্ভারের সাথে রিয়েল-টাইম সংযোগ।
+রিপোর্টকৃত বাগসমূহ:
+কার্ড রিডার সমস্যা: প্রিপেইড কার্ড মাঝে মাঝে সিস্টেম চিনতে ব্যর্থ।
+পিন ইনপুট ত্রুটি: ৩ বার ভুল পিন দেওয়ার পর লকআউট মেসেজ দেখায় না।
+টাকা উত্তোলনে দেরি: টাকা উত্তোলনে দীর্ঘ সময় বা মাঝে মাঝে টাকা বের না হওয়া।
+ভাষা নির্বাচন বাগ: কিছু মেনুতে ইংরেজিতে ফিরে আসে।
+ব্যালেন্স প্রদর্শনের ত্রুটি: চেকিং অ্যাকাউন্টের ব্যালেন্স ভুলভাবে সেভিংস অ্যাকাউন্টের মতো প্রদর্শিত।
+রসিদ প্রিন্টার ত্রুটি: রসিদে লেনদেনের তথ্য অসম্পূর্ণ বা অনুপস্থিত।
+ফান্ড ট্রান্সফার কনফার্মেশন: ট্রান্সফার শেষে কনফার্মেশন স্ক্রিন দেখায় না।
+ডিপোজিট ক্রেডিট না হওয়া: চেক জমা দেওয়ার পর অ্যাকাউন্টে তাৎক্ষণিকভাবে ক্রেডিট হয় না।
+টাইমআউট সমস্যা: ডিপোজিট করার সময় সেশন দ্রুত শেষ হয়ে যায়।
+কার্ড রিটেনশন ত্রুটি: বৈধ লেনদেনের পরও কার্ড আটকে রাখা হয়।
 
 
-7. Write a simple “JAVA” program to explain classNotFound Exception and endOfFile(EOF) exception. 
+
+
+
+Q7. Write a simple “JAVA” program to explain classNotFound Exception and endOfFile(EOF) exception. 
 Java Exception Handling is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.
 In Java, Exception is an unwanted or unexpected event, which occurs during the execution of a program, i.e. at run time, 
 1. ClassNotFoundException (Java):
@@ -43,7 +65,7 @@ Both exceptions ensure that programs handle situations where external resources 
 
 
 
-9.Explain the role of software engineering in Biomedical Engineering and in the field of Artificial Intelligence and Robotics.
+Q9.Explain the role of software engineering in Biomedical Engineering and in the field of Artificial Intelligence and Robotics.
 Role of Software Engineering in Biomedical Engineering:
 Medical Device Software Development: Creates precise software for devices like pacemakers, MRI machines.
 Healthcare Data Management: Manages and secures patient data through electronic health records (EHRs).
@@ -64,9 +86,27 @@ Software engineering forms the backbone of innovation in both biomedical enginee
  reliable, and safe systems for health, automation, and problem-solving. The synergy between software engineering and these fields leads
  to advancements in healthcare, automation, and intelligent systems.
 
+বায়োমেডিক্যাল ইঞ্জিনিয়ারিংয়ে সফটওয়্যার ইঞ্জিনিয়ারিংয়ের ভূমিকা:
+মেডিকেল ডিভাইসের সফটওয়্যার উন্নয়ন: পেসমেকার, ইনসুলিন পাম্প, এবং এমআরআই মেশিনের মতো ডিভাইসের জন্য নির্ভুল সফটওয়্যার তৈরি।
+স্বাস্থ্য তথ্য ব্যবস্থাপনা: ইলেকট্রনিক হেলথ রেকর্ড (EHR) এবং পেশেন্ট ডেটা সুরক্ষিতভাবে সংরক্ষণ ও পরিচালনা।
+মেডিকেল ইমেজিং ও সিগন্যাল প্রসেসিং: জটিল মেডিকেল ডেটা বিশ্লেষণের জন্য অ্যালগরিদম তৈরি।
+সিমুলেশন এবং মডেলিং: জীববৈজ্ঞানিক প্রক্রিয়াগুলোর সিমুলেশন, যা নতুন চিকিৎসা উন্নয়নে সহায়ক।
+টেলিমেডিসিন ও মোবাইল হেলথ অ্যাপ: দূর থেকে চিকিৎসা এবং স্বাস্থ্য ট্র্যাকিং অ্যাপ্লিকেশন তৈরি।
+কৃত্রিম বুদ্ধিমত্তা: রোগ নির্ণয় ও ব্যক্তিগতকৃত চিকিৎসায় AI প্রযুক্তি একীভূতকরণ।
+কৃত্রিম বুদ্ধিমত্তা ও রোবোটিক্সে সফটওয়্যার ইঞ্জিনিয়ারিংয়ের ভূমিকা:
+অ্যালগরিদম উন্নয়ন: মেশিন লার্নিং, কম্পিউটার ভিশন ও NLP-এর জন্য অ্যালগরিদম তৈরি।
+এআই মডেল ট্রেনিং ও ডিপ্লয়মেন্ট: AI মডেলের জন্য ডেটা প্রসেসিং এবং অপ্টিমাইজেশনের সফটওয়্যার তৈরি।
+রোবটিক কন্ট্রোল সিস্টেম: রোবট নিয়ন্ত্রণের জন্য সঠিক সফটওয়্যার তৈরি।
+কম্পিউটার ভিশন: রোবটের পরিবেশ বিশ্লেষণের জন্য ভিশন সিস্টেমের উন্নয়ন।
+মানুষ-রোবট ইন্টারঅ্যাকশন: রোবটকে স্বাভাবিকভাবে মানুষের সাথে যোগাযোগ করার জন্য সফটওয়্যার তৈরি।
+সিমুলেশন ও পরীক্ষা: বাস্তব পরিবেশে ব্যবহারের আগে রোবটের সিমুলেশন টেস্টিং।
+নিরাপদ ও নৈতিক এআই সিস্টেম: নিরাপদ ও স্বচ্ছ AI সিস্টেম তৈরি, বিশেষত স্বাস্থ্য ও স্বচালিত যানবাহনে।
 
 
-10. Study the various phases of Water-fall model. Which phase is the most dominated one?
+
+
+
+Q10. Study the various phases of Water-fall model. Which phase is the most dominated one?
 The Waterfall Model is a linear and sequential software development methodology that divides the project into distinct phases. 
 Each phase must be completed before moving on to the next, and there is no overlap between phases. The phases are as follows:
 
@@ -100,7 +140,7 @@ The success of all subsequent phases depends on having accurate, complete, and w
 If mistakes are made here, they can be very costly to fix later in the process.
 
 
-11. Using COCOMO model estimate effort for specific problem in industrial domain.
+Q11. Using COCOMO model estimate effort for specific problem in industrial domain.
 COCOMO (Constructive Cost Model):
 COCOMO is a widely-used software estimation model developed by Barry Boehm in 1981 to estimate the effort, time, and cost required for software development projects. 
 The model uses the size of the project (in terms of lines of code) and other parameters to estimate effort (in person-months), development time, and staffing needs.
@@ -111,17 +151,7 @@ Intermediate COCOMO: Considers additional cost factors like experience, reliabil
 Detailed COCOMO: Breaks the project into smaller subsystems for detailed analysis.
 For a problem in the industrial domain, let's estimate the effort using the Basic COCOMO model. The model calculates effort based on the formula:
 
-Effort
-=
-𝑎
-×
-(
-𝐾
-𝐿
-𝑂
-𝐶
-)
-𝑏
+
 Effort=a×(KLOC)^b
  
 where:
@@ -142,90 +172,22 @@ For instance, let's assume the software requires 50,000 lines of code (50 KLOC).
 COCOMO Constants: For the Basic COCOMO model, the values of constants for different project types are:
 
 Organic: 
-𝑎
-=
-2.4
-,
-𝑏
-=
-1.05
+𝑎 =2.4,𝑏=1.05
 a=2.4,b=1.05
 Semi-detached: 
-𝑎
-=
-3.0
-,
-𝑏
-=
-1.12
+𝑎=3.0,𝑏=1.12
 a=3.0,b=1.12
 Embedded: 
-𝑎
-=
-3.6
-,
-𝑏
-=
-1.20
+𝑎=3.6,𝑏=1.20
 a=3.6,b=1.20
 Let's assume this is an embedded system project, so the values of a and b will be 3.6 and 1.20, respectively.
 
 Effort Calculation: Using the formula 
 Effort
-=
-𝑎
-×
-(
-𝐾
-𝐿
-𝑂
-𝐶
-)
-𝑏
-Effort=a×(KLOC) 
-b
- :
 
-Effort
-=
-3.6
-×
-(
-50
-)
-1.20
-Effort=3.6×(50) 
-1.20
- 
-Now, calculate this step by step.
+Effort=a×(KLOC)^b 
 
-Effort Calculation (Using Embedded Constants)
-First, calculate the value of 
-5
-0
-1.20
-50 
-1.20
- . Let's do this:
-
-5
-0
-1.20
-≈
-150.35
-50 
-1.20
- ≈150.35
-Now, multiply this by 3.6:
-
-Effort
-=
-3.6
-×
-150.35
-≈
-541.26
- person-months
+Effort=3.6×(50)^1.20
 Effort=3.6×150.35≈541.26 person-months
 So, the estimated effort for the project is 541.26 person-months.
 
