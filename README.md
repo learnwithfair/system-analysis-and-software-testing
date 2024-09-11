@@ -7,9 +7,6 @@
 
 Thanks for visiting my GitHub account!
 
-<p align="center"><img src="https://github.com/learnwithfair/cellular-communications/blob/main/screenshot/info.jpg" width="400" height="250" alt="Cellular"></p>
-
-
 
 ## Features
 
